@@ -1,17 +1,19 @@
 <?php
-class Pengguna {
+class User {
     public $nama;
-    public $hobi;
+    public $email;
 
-    public function __construct($nama, $hobi) {
+    // method yang dijalankan saat object dibuat
+    public function __construct($nama, $email) {
         $this->nama = $nama;
-        $this->hobi = $hobi;
+        $this->email = $email;
     }
 
-    public function ambilData() {
+    // method untuk mengambil data
+    public function getData() {
         return [
             'nama' => $this->nama,
-            'hobi' => $this->hobi
+            'email' => $this->email
         ];
     }
 }
