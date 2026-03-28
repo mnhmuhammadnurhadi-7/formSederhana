@@ -26,4 +26,9 @@
             <p><strong>Email:</strong> <?php echo htmlspecialchars($dataTampil['email']); ?></p>
         </div>
     <?php endif; ?>
+    <?php if ($dataTampil == null): ?>
+        <div style="background: #e9f5ff; padding: 15px; border-left: 5px solid #ff0000;">
+            <h3>Data Kosong</h3>
+        </div>
+    <?php endif; ?>
 </div>
