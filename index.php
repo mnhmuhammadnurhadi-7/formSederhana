@@ -1,6 +1,6 @@
 <?php
 // 1. menlankan logikanya terlebih dahulu
-require_once 'inputuser.php';
+require_once 'inputUser.php';
 
 // 2. menampilkan html-nya (logika di atas akan mengirim data ke file tampilan ini)
 ?>

@@ -1,19 +1,22 @@
 <?php
 class User {
-    public $nama;
-    public $email;
+    public $firstname;
+    public $lastname;
+    public $phone;
 
     // method yang dijalankan saat object dibuat
-    public function __construct($nama, $email) {
-        $this->nama = $nama;
-        $this->email = $email;
+    public function __construct($firstname, $lastname, $phone) {
+        $this->firstname = $firstname;
+        $this->lastname = $lastname;
+        $this->phone = $phone;
     }
 
     // method untuk mengambil data
     public function getData() {
         return [
-            'nama' => $this->nama,
-            'email' => $this->email
+            'firstname' => $this->firstname,
+            'lastname' => $this->lastname,
+            'phone' => $this->phone
         ];
     }
 }
