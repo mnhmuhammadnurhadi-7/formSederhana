@@ -1,6 +1,6 @@
 <?php
 // 1. menlankan logikanya terlebih dahulu
-require_once 'inputUser.php';
+require_once 'Proses/inputUser.php';
 
 // 2. menampilkan html-nya (logika di atas akan mengirim data ke file tampilan ini)
 ?>
@@ -12,6 +12,6 @@ require_once 'inputUser.php';
     <title>Project Form PHP</title>
 </head>
 <body>
-    <?php require_once 'formtapilan.php'; ?>
+    <?php require_once 'Tampilan/formtapilan.php'; ?>
 </body>
 </html>
